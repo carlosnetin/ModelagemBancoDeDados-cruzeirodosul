@@ -1,10 +1,12 @@
 
 📖 Livraria Saber - Modelagem de Banco de Dados MySQL
+
 Este projeto contém o dump de um banco de dados MySQL chamado livraria_saber, modelado para um sistema de gestão de uma livraria que também comercializa itens de papelaria.
 
 O banco de dados foi desenvolvido e testado utilizando o MySQL Workbench 8.0 e o MySQL Server 8.0.44.
 
 🗄️ Estrutura do Banco de Dados (Schema)
+
 O schema livraria_saber é composto pelas seguintes tabelas:
 
 autor: Armazena informações sobre os autores dos livros.
@@ -28,6 +30,7 @@ venda: Armazena informações sobre cada transação de venda, incluindo data, v
 item_venda: Tabela de detalhes para cada venda, listando os itens vendidos (livros ou papelaria), suas quantidades e o preço unitário. Possui uma restrição (CHECK) para garantir que cada item_venda se refira a apenas um livro ou apenas um item de papelaria.
 
 💾 Arquivos SQL Inclusos
+
 Os arquivos SQL fornecidos contêm as instruções CREATE TABLE e INSERT INTO para popular as tabelas, sendo a estrutura completa e dados de exemplo (Dumping Data).
 
 Nome do Arquivo	Conteúdo Principal
@@ -40,7 +43,9 @@ livraria_saber_item_venda.sql	Definição da tabela item_venda e seus dados.
 livraria_saber_livro.sql	Definição da tabela livro e seus dados.
 livraria_saber_livro_autor.sql	Definição da tabela livro_autor e seus dados.
 livraria_saber_papelaria.sql	Definição da tabela papelaria e seus dados.
+
 ⚙️ Como Utilizar
+
 Para utilizar este banco de dados:
 
 Instale o MySQL Server (versão 8.0 ou compatível).
@@ -57,6 +62,7 @@ Abra o arquivo Livraria_s.sql em um cliente MySQL (como o MySQL Workbench).
 Execute todo o conteúdo do arquivo. Isso criará todas as tabelas e inserirá os dados de exemplo.
 
 📝 Exemplos de Consultas (SQL)
+
 Aqui estão alguns exemplos de consultas que podem ser executadas no banco de dados:
 
 Descrição da Consulta	Comando SQL (Exemplo)
